@@ -2,7 +2,6 @@ html, body{
      height: 100;
      margin: auto;
      font-family: "Space Mono", sans-serif;
-     font-size: 18px;
      line-height: 1.4em;
      color: GhostWhite;
 }
@@ -27,13 +26,14 @@ header{
      display: flex;
      align-items: center;
      position: fixed;
-     left: 30px;
+     left: 35px;
+
 }
 
 .logo img{
-     width: 120px; /* Set the width of your logo */
-     height: auto; /* Maintain aspect ratio */
-    
+     width: 130px; /* Set the width of your logo */
+     height: 110px; /* Maintain aspect ratio */
+     padding-top: 10px;
 }
 
 .logo p{
@@ -43,7 +43,7 @@ header{
 
 .navi {
      border-radius: 20px; /* Apply border-radius to the navbar */
-     background-color: rgb(249, 138, 157); /* Add a background color to the navbar */
+     background-color: rgb(187, 45, 69); /* Add a background color to the navbar */
      padding: 20px 20px; /* Add padding for better appearance */
      display: flex;
      justify-content: center;
@@ -67,14 +67,15 @@ header{
  
  .navi a {
      text-decoration: none;
-     color: #fff; /* Set link color to white */
+     color: whitesmoke; /* Set link color to white */
      font-size: bold;
+     font-size: 20px;
      padding: 5px 10px;
      border-radius: 10px; /* Apply border-radius to the links */
      transition: ease 0.3s; /* Add a smooth hover effect */
  }
  
- .navi a:hover {
+.navi a:hover {
      background-color: #555; /* Change the background color on hover */
 }
 
@@ -84,7 +85,6 @@ header{
      display: flex;
      justify-content: center;
      align-items: center;
-     padding-top: 200px;
      width: 100%;
      height: 100%;
 }
@@ -92,38 +92,39 @@ header{
 .insideAbout {
      width: 100%;
      height: 100%;
-     padding: 200px;
-     background-color: #202020;
+     padding: 150px;
+     background-color: #3d3d3d;
      font-style: italic;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      text-align: center;
-     line-height: 1.8;
-     letter-spacing: 1;
+     line-height: 2;
+     letter-spacing: 2.5;
 
 }
- 
 
 /* For accessing the webcam*/
-
 .hello h1{
      display: flex;
      justify-content: center;
      align-items: center;
      padding-top: 200px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 .center-content{
      display: flex;
      justify-content: center;
      align-items: center;
+     /* for the words */
      padding-top: 10px;
      padding-bottom: 200px;
+     
 }
 
 .container {
-     margin: 0 auto;
      width: 700px;
      height: 500px;
-     border: solid 5px brown;
-     
+
 }
 
 #webcam{
@@ -137,20 +138,19 @@ header{
 .column-container {
      display: flex;
      flex-wrap: wrap;
-     justify-content: space-between; /* Adjust spacing between columns */
+     justify-content: space-evenly; /* Adjust spacing between columns */
      margin-top: 10px;
+     padding: 20px;
  }
  
  .column-item {
-     flex-basis: calc(25% - 20px); /* Adjust the column width */
-     margin: 10px; /* Add margin for spacing */
+     margin: 15px; /* Add margin for spacing */
      text-align: center; /* Center content within each column */
      color: orangered;
      font-size: 24px;
  }
  
  .column-item a {
-     font-size: 16px;
      text-decoration: none;
      color: #11ABB0; /* Link color */
  }
@@ -162,5 +162,6 @@ header{
 footer{
      display: flex;
      justify-content: center;
-     padding-top: 80px;
+     padding-top: 110px;
+     font-size: 18px;
 }
