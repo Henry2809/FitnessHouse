@@ -1,0 +1,166 @@
+html, body{
+     height: 100;
+     margin: auto;
+     font-family: "Space Mono", sans-serif;
+     font-size: 18px;
+     line-height: 1.4em;
+     color: GhostWhite;
+}
+
+
+body {
+     background-image: url("beautiful-shining-stars-night-sky.jpg");
+     background-attachment: fixed;
+     background-size: cover;
+}
+
+
+header{
+     width: auto;
+     height: auto;
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 10px;
+}
+
+.logo {
+     display: flex;
+     align-items: center;
+     position: fixed;
+     left: 30px;
+}
+
+.logo img{
+     width: 120px; /* Set the width of your logo */
+     height: auto; /* Maintain aspect ratio */
+    
+}
+
+.logo p{
+     font-weight: bold;
+     font-size: 22px;
+}
+
+.navi {
+     border-radius: 20px; /* Apply border-radius to the navbar */
+     background-color: rgb(249, 138, 157); /* Add a background color to the navbar */
+     padding: 20px 20px; /* Add padding for better appearance */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: fixed;
+     right: 30px;
+     top: 30px ;
+     flex-direction: column;
+} 
+
+.navi ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: inline-block; /* Use flexbox to distribute items horizontally */
+ }
+ 
+ .navi li{
+     display: inline-block;
+ }
+ 
+ .navi a {
+     text-decoration: none;
+     color: #fff; /* Set link color to white */
+     font-size: bold;
+     padding: 5px 10px;
+     border-radius: 10px; /* Apply border-radius to the links */
+     transition: ease 0.3s; /* Add a smooth hover effect */
+ }
+ 
+ .navi a:hover {
+     background-color: #555; /* Change the background color on hover */
+}
+
+
+/* About section*/
+.aboutClass{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 200px;
+     width: 100%;
+     height: 100%;
+}
+
+.insideAbout {
+     width: 100%;
+     height: 100%;
+     padding: 200px;
+     background-color: #202020;
+     font-style: italic;
+     text-align: center;
+     line-height: 1.8;
+     letter-spacing: 1;
+
+}
+ 
+
+/* For accessing the webcam*/
+
+.hello h1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 200px;
+}
+.center-content{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 10px;
+     padding-bottom: 200px;
+}
+
+.container {
+     margin: 0 auto;
+     width: 700px;
+     height: 500px;
+     border: solid 5px brown;
+     
+}
+
+#webcam{
+     width: 700px;
+     height: 500px;
+     background-color: burlywood;
+}
+
+
+/*Contact links */
+.column-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between; /* Adjust spacing between columns */
+     margin-top: 10px;
+ }
+ 
+ .column-item {
+     flex-basis: calc(25% - 20px); /* Adjust the column width */
+     margin: 10px; /* Add margin for spacing */
+     text-align: center; /* Center content within each column */
+     color: orangered;
+     font-size: 24px;
+ }
+ 
+ .column-item a {
+     font-size: 16px;
+     text-decoration: none;
+     color: #11ABB0; /* Link color */
+ }
+ 
+ .column-item a:hover {
+     text-decoration: underline; /* Add underline on hover */
+ }
+
+footer{
+     display: flex;
+     justify-content: center;
+     padding-top: 80px;
+}
