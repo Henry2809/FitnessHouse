@@ -19,8 +19,9 @@ else{
      console.log("getUserMedie does not support");
 }
 
-const socket = new WebSocket("wss://http://127.0.0.1:5501/version2/index.html#about");
-socket.addEventListener("message", function (event) {
-     const data = event.data;
-     console.log("Data received from backend:", data);
-});
+// Something is up with this part
+// const socket = new WebSocket("wss://http://127.0.0.1:5501/version2/index.html#about");
+// socket.addEventListener("message", function (event) {
+//      const data = event.data;
+//      console.log("Data received from backend:", data);
+// });
